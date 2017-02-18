@@ -1,0 +1,36 @@
+body {
+  padding: 75px 0 0 0;
+  margin: 0;
+  font: normal 20px, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #45494d;
+  background: #2f2840 url("../img/bg_body.gif") 50% 0 repeat;
+}
+
+header {
+
+}
+
+header li {
+  margin: 0 0 115px 0;  
+}
+
+nav {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+nav li {
+  display: inline;
+  padding: 0 42px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #cacaca;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #6bd9ff;
+}
