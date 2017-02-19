@@ -34,3 +34,98 @@ nav a.active {
   font-weight: bold;
   color: #6bd9ff;
 }
+
+h2 {
+  padding: 0 0 40px 0;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h3 {
+  padding: 0 0 20px 0;
+  font-size: 24px;
+  color: #3E59B2;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+h2:before {
+  display: inline-block;
+  padding: 0 24px;
+  font-size: 22px;
+  vertical-align: 5px;
+  content: "\2022";
+}
+
+h2:after {
+  display: inline-block;
+  padding: 0 24px;
+  font-size: 22px;
+  vertical-align: 5px;
+  content: "\2022";
+}
+
+.column {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 100px 0 0 0;
+  background: #ffffff;
+}
+
+main article p {
+  font-size: 20px;
+}
+
+article {
+  padding: 0 110px 100px 110px;
+}
+
+footer {
+  padding: 75px 0 ;
+  color: #b2b2b2;
+  background: #e7e7e7;
+}
+
+footer p {
+  padding: 0 0 40px 0;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 62px;
+}
+footer li a {
+  display: block;
+  width: 46px;
+  height: 46px;
+  text-indent: -8685px;
+  overflow: hidden;
+  background: transparent url("../img/icons_social-media.png") 0 0 no-repeat;
+}
+
+footer li a.facebook {
+  background-position: 0 -46px;
+}
+
+footer li a.email {
+  background-position: 0 -92px;
+}
+
+footer li a.instagram {
+  background-position: 0 -138px;
+}
+
+a {
+  text-decoration: none;
+  color: #3E59B2;
+}
