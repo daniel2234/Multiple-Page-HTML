@@ -82,7 +82,11 @@ main article p {
 }
 
 article {
-  padding: 0 110px 100px 110px;
+  padding: 0 0 100px 0;
+}
+
+article p {
+  padding: 0 110px;
 }
 
 footer {
@@ -123,6 +127,14 @@ footer li a.email {
 
 footer li a.instagram {
   background-position: 0 -138px;
+}
+
+#projects figure {
+  padding: 0 0 55px 0;
+}
+
+#projects figure img {
+  display: block;
 }
 
 a {
